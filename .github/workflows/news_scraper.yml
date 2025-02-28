@@ -1,0 +1,24 @@
+name: Naver News Scraper
+
+on:
+  schedule:
+    - cron: "0 9 * * *"  # 매일 오전 9시에 실행 (UTC 기준)
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install beautifulsoup4 requests
+
+      - name: Run script
+        run: python scraper.py
