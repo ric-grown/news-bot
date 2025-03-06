@@ -17,7 +17,6 @@ def save_to_json(data, filename="now_news.json"):
     print(f"✅ 데이터 저장 완료: {filename}")
 
 # 🔍 1. 네이버 뉴스 크롤링
-# 🔍 1. 네이버 뉴스 크롤링 (이미지 밀림 문제 해결)
 def get_naver_news():
     url = "https://news.naver.com/main/ranking/popularDay.naver"
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -25,22 +24,11 @@ def get_naver_news():
     soup = BeautifulSoup(response.text, "html.parser")
     
     news_list = []
-    news_items = soup.select(".rankingnews_box .list_content li")[:10]  # 각 뉴스 리스트 항목 선택
-
-    for item in news_items:
-        try:
-            link_tag = item.find("a")  # 뉴스 링크
-            title = link_tag.text.strip() if link_tag else "제목 없음"
-            link = "https://news.naver.com" + link_tag["href"] if link_tag and link_tag["href"].startswith("/") else link_tag["href"]
-
-            # 뉴스 항목 내부에서 직접 이미지 가져오기
-            image_tag = item.find("img")
-            image = image_tag["src"] if image_tag else "https://via.placeholder.com/150"
-
-            news_list.append({"title": title, "link": link, "image": image, "source": "네이버 뉴스"})
-        except Exception as e:
-            print(f"❌ 네이버 뉴스 크롤링 오류: {e}")
-            continue
+    for item in soup.select(".rankingnews_box .list_content a")[:10]:
+        title = item.text.strip()
+        link = "https://n.news.naver.com" + item["href"] if item["href"].startswith("/") else item["href"]
+        image = item.find_previous("img")["src"] if item.find_previous("img") else "https://via.placeholder.com/150"
+        news_list.append({"title": title, "link": link, "image": image, "source": "네이버 뉴스"})
     
     print("✔ 네이버 뉴스 크롤링 완료.")
     return news_list
