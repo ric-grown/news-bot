@@ -20,6 +20,8 @@ jobs:
       - name: Install dependencies
         run: pip install beautifulsoup4 requests notion-client
 
+      - name: Check working directory
+        run: pwd && ls -la
+
       - name: Run script
-        working-directory: /home/runner/work/news-bot
         run: python scraper_v0.5.py
