@@ -216,9 +216,9 @@ def add_topic_to_notion(category, title, source, keywords):
     }
     try:
         notion.pages.create(**data)
-        print(f"✅ Notion에 추가됨: {title}")
+        print(f"Notion에 추가됨: {title}")
     except Exception as e:
-        print(f"❌ Notion API 에러: {e}")
+        print(f"Notion API 에러: {e}")
 
 # 🔄 6. 전체 실행 프로세스
 def main():
