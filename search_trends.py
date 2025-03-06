@@ -35,8 +35,6 @@ def get_naver_trending_news():
         title = result.text.strip()
         link = "https://news.naver.com" + result["href"] if result["href"].startswith("/") else result["href"]
         trending_news.append((title, link))
-        
-    print("뉴스 탐색 완료.")
 
     return trending_news
 
@@ -63,8 +61,6 @@ def get_naver_hot_topic_blogs():
             trending_blogs.append((title, link))
         except:
             continue
-    
-    print("블로그 탐색 완료.")
     
     driver.quit()
     return trending_blogs
@@ -93,8 +89,6 @@ def get_tistory_trending_selenium():
             trending_tistory.append((post_title, post_url))
         except:
             continue
-        
-    print("티스토리 탐색 완료.")    
         
     driver.quit()
     return trending_tistory
@@ -129,55 +123,56 @@ def generate_topics(search_trends):
     각 주제에 대해 다음 정보를 포함해줘:
     - 카테고리 (해당 주제가 속하는 분야, 예: 경제, 투자, 라이프스타일, 테크 등)
     - 추천 키워드 3개 (SEO 최적화를 고려한 핵심 키워드)
+    - 카테고리와 추천 키워드는 띄어쓰기 없어야함
     - 블로그 글 작성 프롬프트 (해당 주제에 대해 블로그 글을 작성할 때 활용할 가이드)
     - 쇼츠 내용 작성 프롬프트 (쇼츠를 제작할 때 사용할 가이드)
 
     출력 형식 예시:
     [블로그 주제] "주제 제목"
     카테고리: [카테고리명]
-    추천 키워드: #키워드1 #키워드2 #키워드3
-    블로그 글 작성 프롬프트: "..."
+    키워드: 키워드1 키워드2 키워드3
+    블로그 프롬프트: "..."
 
     [쇼츠 주제] "주제 제목"
     카테고리: [카테고리명]
-    추천 키워드: #키워드1 #키워드2 #키워드3
-    쇼츠 내용 작성 프롬프트: "..."
+    키워드: 키워드1 키워드2 키워드3
+    쇼츠 프롬프트: "..."
     """
 
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4-turbo",
         messages=[{"role": "system", "content": "You are an expert content strategist specializing in blog and short-form video topics."},
                   {"role": "user", "content": prompt}],
         temperature=0.7,
-        max_tokens=1000
+        max_tokens=2000
     )
-
     topics = response.choices[0].message.content.split("\n")
-
+    
     blog_topics = []
     shorts_topics = []
 
     current_category = None
     current_keywords = None
     current_prompt = None
+    current_type = None
+    blog_title = None
+    shorts_title = None
 
     for i, t in enumerate(topics):
         t = t.strip()
         if t.startswith("[블로그 주제]"):
-            if current_category and current_keywords and current_prompt:
-                blog_topics.append((blog_title, current_category, current_keywords, current_prompt))
             blog_title = t.replace("[블로그 주제]", "").strip()
             current_category = None
             current_keywords = None
             current_prompt = None
+            current_type = 'blog'
 
         elif t.startswith("[쇼츠 주제]"):
-            if current_category and current_keywords and current_prompt:
-                shorts_topics.append((shorts_title, current_category, current_keywords, current_prompt))
             shorts_title = t.replace("[쇼츠 주제]", "").strip()
             current_category = None
             current_keywords = None
             current_prompt = None
+            current_type = 'shorts'
 
         elif t.startswith("카테고리:"):
             current_category = t.replace("카테고리:", "").strip()
@@ -191,31 +186,37 @@ def generate_topics(search_trends):
         elif t.startswith("쇼츠 프롬프트:"):
             current_prompt = t.replace("쇼츠 프롬프트:", "").strip()
 
-    # 마지막 항목 추가
-    if current_category and current_keywords and current_prompt:
-        if len(blog_topics) < 3:
-            blog_topics.append((blog_title, current_category, current_keywords, current_prompt))
-        else:
-            shorts_topics.append((shorts_title, current_category, current_keywords, current_prompt))
+        if blog_title and current_category and current_keywords and current_prompt:
+            blog_topics.append((blog_title, current_category, current_keywords, current_prompt, current_type))
+            blog_title = None
+
+        if shorts_title and current_category and current_keywords and current_prompt:
+            shorts_topics.append((shorts_title, current_category, current_keywords, current_prompt, current_type))
+            shorts_title = None
+
+    # 마지막 주제 저장 (루프 종료 후 처리)
+    if blog_title and current_category and current_keywords and current_prompt:
+        blog_topics.append((blog_title, current_category, current_keywords, current_prompt, current_type))
+
+    if shorts_title and current_category and current_keywords and current_prompt:
+        shorts_topics.append((shorts_title, current_category, current_keywords, current_prompt, current_type))
 
     return blog_topics, shorts_topics
 
-
 # 📝 5. Notion에 데이터 추가
-def add_topic_to_notion(category, title, source, keywords):
+def add_topic_to_notion(category, title, source, keywords, type):
     data = {
         "parent": {"database_id": DATABASE_ID},
         "properties": {
             "날짜": {"date": {"start": datetime.today().strftime("%Y-%m-%d")}},
-            "카테고리": {"select": {"name": category}},
+            "카테고리": {"select": {"name": category.split(",")[0].strip()}},
             "주제 제목": {"title": [{"text": {"content": title}}]},
             "참고 내용": {"rich_text": [{"text": {"content": source}}]},
             "추천 키워드": {"multi_select": [{"name": kw} for kw in keywords]},
-            "작성 상태": {"select": {"name": "초안"}},
+            "타입": {"select": {"name": type}},
         }
     }
 
-    print("등록 완료.")
     try:
         notion.pages.create(**data)
         print(f"Notion에 추가됨: {title}")
@@ -235,13 +236,13 @@ def main():
 
     # Notion에 블로그 주제 추가
     for topic in blog_topics:
-        title, category, keywords, source = topic  
-        add_topic_to_notion(category, title, source, keywords)
+        title, category, keywords, source, type = topic  
+        add_topic_to_notion(category, title, source, keywords, type)
 
     # Notion에 쇼츠 주제 추가
     for topic in shorts_topics:
-        title, category, keywords, source = topic  
-        add_topic_to_notion(category, title, source, keywords)
+        title, category, keywords, source, type = topic  
+        add_topic_to_notion(category, title, source, keywords, type)
     
 if __name__ == "__main__":
     main()
