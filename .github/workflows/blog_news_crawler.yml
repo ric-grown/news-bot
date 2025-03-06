@@ -1,0 +1,35 @@
+name: Blog News Crawler
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"  # 3시간마다 실행 (UTC 기준)
+  workflow_dispatch:  # 수동 실행도 가능하게 설정
+
+jobs:
+  crawl_and_update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+        
+      - name: Python 설정
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: 필수 패키지 설치
+        run: |
+          pip install -r requirements.txt
+      
+      - name: 크롤링 실행
+        run: |
+          python news_crawler.py
+      
+      - name: 변경 사항 커밋 및 푸시
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add now_news.json
+          git commit -m "🔄 자동 크롤링 업데이트: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
