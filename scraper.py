@@ -16,7 +16,7 @@ def add_topic_to_notion(category, title, source, keywords):
             "날짜": {"date": {"start": datetime.today().strftime("%Y-%m-%d")}},
             "카테고리": {"select": {"name": category}},
             "주제 제목": {"title": [{"text": {"content": title}}]},
-            "관련 뉴스/정보 출처": {"url": source},
+            "참고 내용": {"rich_text": [{"text": {"content": source}}]},
             "추천 키워드": {"multi_select": [{"name": kw} for kw in keywords]},
             "작성 상태": {"select": {"name": "초안"}},
         }
@@ -28,5 +28,5 @@ def add_topic_to_notion(category, title, source, keywords):
         print(f"❌ Notion API 에러: {e}")
 
 # 실행 예제
-add_topic_to_notion("경제", "topic", "https://news.naver.com", ["경제", "트렌드"])
+add_topic_to_notion("경제", "topic", "aaaaaaa", ["경제", "트렌드"])
 
