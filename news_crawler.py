@@ -9,7 +9,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
-import re
 
 # JSON 파일 저장 함수
 def save_to_json(data, filename="now_news.json"):
@@ -17,24 +16,8 @@ def save_to_json(data, filename="now_news.json"):
         json.dump(data, f, ensure_ascii=False, indent=4)
     print(f"✅ 데이터 저장 완료: {filename}")
 
-# 🔍 이미지 경로 추출 함수 (onerror 활용)
-def get_valid_image(img_tag):
-    """ img 태그에서 올바른 이미지 URL을 반환 """
-    if not img_tag:
-        return "https://via.placeholder.com/150"  # 기본 이미지
-
-    img_src = img_tag.get("src", "")
-    if "logo_" in img_src.lower():
-        # onerror 속성에서 대체 이미지 URL 추출
-        onerror_attr = img_tag.get("onerror", "")
-        match = re.search(r"this\.src='(.*?)'", onerror_attr)
-        if match:
-            return match.group(1)  # onerror 속성의 실제 이미지 URL 반환
-        return "https://via.placeholder.com/150"
-    
-    return img_src  # 로고 이미지가 아닌 경우 원본 이미지 사용
-
 # 🔍 1. 네이버 뉴스 크롤링
+# 🔍 1. 네이버 뉴스 크롤링 (이미지 밀림 문제 해결)
 def get_naver_news():
     url = "https://news.naver.com/main/ranking/popularDay.naver"
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -42,13 +25,22 @@ def get_naver_news():
     soup = BeautifulSoup(response.text, "html.parser")
     
     news_list = []
-    for item in soup.select(".rankingnews_box .list_content a")[:10]:
-        title = item.text.strip()
-        link = "https://news.naver.com" + item["href"] if item["href"].startswith("/") else item["href"]
-        image_tag = item.find_previous("img")
-        image = get_valid_image(image_tag)  # 이미지 필터링
+    news_items = soup.select(".rankingnews_box .list_content li")[:10]  # 각 뉴스 리스트 항목 선택
 
-        news_list.append({"title": title, "link": link, "image": image, "source": "네이버 뉴스"})
+    for item in news_items:
+        try:
+            link_tag = item.find("a")  # 뉴스 링크
+            title = link_tag.text.strip() if link_tag else "제목 없음"
+            link = "https://news.naver.com" + link_tag["href"] if link_tag and link_tag["href"].startswith("/") else link_tag["href"]
+
+            # 뉴스 항목 내부에서 직접 이미지 가져오기
+            image_tag = item.find("img")
+            image = image_tag["src"] if image_tag else "https://via.placeholder.com/150"
+
+            news_list.append({"title": title, "link": link, "image": image, "source": "네이버 뉴스"})
+        except Exception as e:
+            print(f"❌ 네이버 뉴스 크롤링 오류: {e}")
+            continue
     
     print("✔ 네이버 뉴스 크롤링 완료.")
     return news_list
@@ -71,9 +63,7 @@ def get_naver_blogs():
         try:
             title = blog.find_element(By.CSS_SELECTOR, ".title_post").text.strip()
             link = blog.find_element(By.CSS_SELECTOR, "a.item_inner").get_attribute("href")
-            image_tag = blog.find_element(By.CSS_SELECTOR, "img")
-            image = get_valid_image(image_tag)  # 이미지 필터링
-
+            image = blog.find_element(By.CSS_SELECTOR, "img").get_attribute("src")
             blog_list.append({"title": title, "link": link, "image": image, "source": "네이버 블로그"})
         except:
             continue
@@ -100,9 +90,7 @@ def get_tistory_blogs():
         try:
             title = post.find_element(By.CSS_SELECTOR, "strong.tit_g").text.strip()
             link = post.find_element(By.CSS_SELECTOR, "a.link_cont.zoom_cont").get_attribute("href")
-            image_tag = post.find_element(By.CSS_SELECTOR, "img")
-            image = get_valid_image(image_tag)  # 이미지 필터링
-
+            image = post.find_element(By.CSS_SELECTOR, "img").get_attribute("src")
             tistory_list.append({"title": title, "link": link, "image": image, "source": "티스토리"})
         except:
             continue
