@@ -211,7 +211,7 @@ def add_topic_to_notion(category, title, source, keywords):
             "이름": {
                 "title": [{"type": "text", "text": {"content": title, "link": None}}]
             },
-            "관련 뉴스/정보 출처": {"url": source},
+            "참고 내용": {"rich_text": [{"text": {"content": source}}]},
             "추천 키워드": {"multi_select": [{"name": kw} for kw in keywords]},
             "작성 상태": {"select": {"name": "초안"}},
         }
