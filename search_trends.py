@@ -214,6 +214,8 @@ def add_topic_to_notion(category, title, source, keywords):
             "작성 상태": {"select": {"name": "초안"}},
         }
     }
+
+    print("등록 완료.")
     try:
         notion.pages.create(**data)
         print(f"Notion에 추가됨: {title}")
