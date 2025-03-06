@@ -18,7 +18,8 @@ jobs:
           python-version: "3.9"
 
       - name: Install dependencies
-        run: pip install beautifulsoup4 requests
+        run: pip install beautifulsoup4 requests notion-client
 
       - name: Run script
+        working-directory: /home/runner/work/news-bot/news-bot
         run: python ./scraper_v0.5.py
