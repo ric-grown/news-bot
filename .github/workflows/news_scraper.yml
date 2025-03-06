@@ -12,6 +12,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Check working directory
+        run: pwd && ls -la
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -19,9 +22,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install beautifulsoup4 requests notion-client
-
-      - name: Check working directory
-        run: pwd && ls -la
 
       - name: Run script
         run: python scraper_v0.5.py
