@@ -152,7 +152,7 @@ def generate_topics(search_trends):
         max_tokens=1000
     )
 
-    topics = response["choices"][0]["message"]["content"].split("\n")
+    topics = response.choices[0].message.content.split("\n")
 
     blog_topics = []
     shorts_topics = []
