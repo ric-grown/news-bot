@@ -22,4 +22,4 @@ jobs:
 
       - name: Run script
         working-directory: /home/runner/work/news-bot/news-bot
-        run: python ./scraper_v0.5.py
+        run: python scraper_v0.5.py
