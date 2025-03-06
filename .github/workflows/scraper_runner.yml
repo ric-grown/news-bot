@@ -1,4 +1,4 @@
-name: Naver News Scraper
+name: Scraper Runner
 
 on:
   schedule:
