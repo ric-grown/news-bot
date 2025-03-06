@@ -22,15 +22,37 @@ def get_naver_news():
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, "html.parser")
-    
+
     news_list = []
-    for item in soup.select(".rankingnews_box .list_content a")[:10]:
-        title = item.text.strip()
-        link = "https://n.news.naver.com" + item["href"] if item["href"].startswith("/") else item["href"]
-        image = item.find_previous("img")["src"] if item.find_previous("img") else "https://via.placeholder.com/150"
-        news_list.append({"title": title, "link": link, "image": image, "source": "네이버 뉴스"})
     
-    print("✔ 네이버 뉴스 크롤링 완료.")
+    # `.rankingnews_list > li` 내부의 기사 가져오기
+    for item in soup.select("ul.rankingnews_list > li")[:10]:  
+        try:
+            # 기사 링크 및 제목 가져오기
+            link_tag = item.select_one(".list_content a")
+            title = link_tag.text.strip() if link_tag else "제목 없음"
+            link = "https://n.news.naver.com" + link_tag["href"] if link_tag and link_tag["href"].startswith("/") else link_tag["href"]
+            
+            # 이미지 가져오기 (logo_ 이미지 필터링)
+            image_tag = item.select_one("img")
+            image = "https://via.placeholder.com/150"  # 기본 이미지
+
+            if image_tag:
+                image_src = image_tag["src"]
+                if "logo_" in image_src:  # logo_ 이미지가 있으면 다음 이미지 시도
+                    next_image_tag = image_tag.find_next("img")
+                    if next_image_tag:
+                        image = next_image_tag["src"]
+                else:
+                    image = image_src  # logo_ 이미지가 아니면 그대로 사용
+
+            news_list.append({"title": title, "link": link, "image": image, "source": "네이버 뉴스"})
+
+        except Exception as e:
+            print(f"❌ 개별 뉴스 크롤링 오류: {e}")
+            continue
+
+    print(f"✔ 네이버 뉴스 크롤링 완료. 총 {len(news_list)}개 수집됨.")
     return news_list
 
 # 🔍 2. 네이버 인기 블로그 크롤링
