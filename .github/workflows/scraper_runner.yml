@@ -21,4 +21,4 @@ jobs:
         run: pip install beautifulsoup4 requests notion-client selenium webdriver-manager openai
 
       - name: Run script
-        run: python scraper.py
+        run: python search_trends.py
