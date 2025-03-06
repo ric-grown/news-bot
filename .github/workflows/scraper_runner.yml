@@ -21,4 +21,4 @@ jobs:
         run: pip install beautifulsoup4 requests notion-client
 
       - name: Run script
-        run: python scraper_v0.5.py
+        run: python scraper.py
