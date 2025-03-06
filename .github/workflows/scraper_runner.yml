@@ -18,7 +18,7 @@ jobs:
           python-version: "3.9"
 
       - name: Install dependencies
-        run: pip install beautifulsoup4 requests notion-client
+        run: pip install beautifulsoup4 requests notion-client selenium webdriver-manager openai
 
       - name: Run script
         run: python scraper.py
