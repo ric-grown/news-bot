@@ -20,7 +20,8 @@ jobs:
       
       - name: 필수 패키지 설치
         run: |
-          pip install -r requirements.txt
+          pip install beautifulsoup4 requests notion-client selenium webdriver-manager openai
+
       
       - name: 크롤링 실행
         run: |
