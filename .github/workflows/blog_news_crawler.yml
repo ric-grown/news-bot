@@ -19,11 +19,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-          cache: 'pip'
 
       - name: 필요한 패키지 설치
         run: |
-          pip install --upgrade pip
           pip install requests requests-html beautifulsoup4 lxml urllib3 chardet lxml_html_clean pyppeteer
 
       - name: 크롤러 실행
