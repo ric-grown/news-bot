@@ -65,7 +65,7 @@ def crawl_news():
                                 img_src = img_tag["data-src"] if img_tag and img_tag.has_attr("data-src") else None
 
                             if img_src:
-                                all_items.append({"제목": title, "링크": link, "이미지": img_src})
+                                all_items.append({"title": title, "link": link, "image": img_src})
 
                             # 딜레이 추가 (과부하 방지)
                             time.sleep(1)
