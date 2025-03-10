@@ -17,6 +17,10 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: 실행 경로 확인 (디버깅)
+        run: |
+          git status  # ✅ 현재 디렉터리가 Git 저장소인지 확인
+
       - name: Python 설정 (Python 3.9)
         uses: actions/setup-python@v4
         with:
