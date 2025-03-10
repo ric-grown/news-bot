@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: 저장소 체크아웃 (코드 가져오기)
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Python 설정 (Python 3.9)
         uses: actions/setup-python@v4
@@ -27,12 +29,18 @@ jobs:
         run: |
           python main_crawler.py
 
-      - name: 변경 사항 커밋 및 푸시
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Git 설정 및 변경사항 확인
+        working-directory: /home/runner/work/news-bot
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add now_news.json
-          git commit -m "🔄 자동 크롤링 업데이트: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-          git push https://x-access-token:${GH_TOKEN}@github.com/ric-grown/news-bot.git HEAD:main
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add *.json
+          git status
+
+      - name: 변경 사항 커밋 & 푸시
+        working-directory: /home/runner/work/news-bot
+        run: |
+          git commit -m "자동 크롤링 결과 업데이트 [GitHub Actions]" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
