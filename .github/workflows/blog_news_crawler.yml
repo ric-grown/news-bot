@@ -17,6 +17,11 @@ jobs:
       - name: 저장소 체크아웃 (코드 가져오기)
         uses: actions/checkout@v4
 
+      - name: 실행 경로 확인 (디버깅)
+        run: |
+          pwd
+          ls -al
+
       - name: Python 설정 (Python 3.9)
         uses: actions/setup-python@v4
         with:
