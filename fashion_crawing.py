@@ -58,7 +58,7 @@ def crawl_fashion():
                     img_src = urljoin(url, img_tag["src"]) if img_tag else None  # 상대 경로 변환
 
                     if href and img_src:
-                        all_items.append({"카테고리": category, "링크": href, "이미지": img_src})
+                        all_items.append({"title": None, "link": href, "image": img_src})
 
     print(f"✅ 총 {len(all_items)}개 상품 크롤링 완료!")
     return all_items
