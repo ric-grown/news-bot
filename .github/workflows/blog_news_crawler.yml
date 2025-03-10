@@ -1,13 +1,10 @@
-name: Blog News Crawler
-
-permissions:
-  contents: write
+name: Run Crawler Every Hour
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 매시간 0분마다 실행 (예: 01:00, 02:00, 03:00 ...)
+    - cron: '0 * * * *'  # 매시간 정각 실행
 
-  workflow_dispatch:  # 수동 실행 가능하도록 추가
+  workflow_dispatch:  # 수동 실행 가능 (버튼으로 실행 가능)
 
 jobs:
   crawl:
@@ -16,6 +13,14 @@ jobs:
     steps:
       - name: 저장소 체크아웃 (코드 가져오기)
         uses: actions/checkout@v4
+        with:
+          path: news-bot  # ✅ 저장소를 /home/runner/work/news-bot 에 다운로드하도록 설정
+
+      - name: 실행 경로 확인 (디버깅)
+        working-directory: /home/runner/work/news-bot
+        run: |
+          pwd
+          ls -al
 
       - name: Python 설정 (Python 3.9)
         uses: actions/setup-python@v4
@@ -23,14 +28,14 @@ jobs:
           python-version: '3.9'
 
       - name: 필요한 패키지 설치
+        working-directory: /home/runner/work/news-bot
         run: |
           pip install requests requests-html beautifulsoup4 lxml urllib3 chardet
 
       - name: 크롤러 실행
+        working-directory: /home/runner/work/news-bot
         run: |
-          cd /home/runner/work/news-bot/news-bot
           python main_crawler.py
-
 
       - name: 변경 사항 커밋 및 푸시
         env:
