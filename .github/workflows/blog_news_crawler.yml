@@ -31,8 +31,8 @@ jobs:
 
       - name: Git 설정 및 변경 사항 확인
         run: |
-          git config --global user.name "your-github-username"
-          git config --global user.email "your-email@example.com"
+          git config --global user.name "ric-grown"
+          git config --global user.email "ric.richest@gmail.com"
           git status
 
       - name: GitHub PAT을 사용한 Push
