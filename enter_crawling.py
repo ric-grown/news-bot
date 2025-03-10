@@ -44,7 +44,7 @@ def crawl_entertainment():
                 title = title_tag.text.strip() if title_tag else "제목 없음"
 
                 if href and img_src:
-                    all_items.append({"제목": title, "링크": href, "이미지": img_src})
+                    all_items.append({"title": title, "link": href, "image": img_src})
 
     print(f"✅ 총 {len(all_items)}개 상품 크롤링 완료!")
     return all_items
