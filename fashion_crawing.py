@@ -42,7 +42,7 @@ def crawl_fashion():
                     img_src = urljoin(url, img_tag["src"]) if img_tag else None  # 상대 경로 -> 절대 경로 변환
 
                     if href and img_src:
-                        all_items.append({"카테고리": category, "링크": href, "이미지": img_src})
+                        all_items.append({"카테고리": " ", "링크": href, "이미지": img_src})
 
         elif category == "키즈":
             # 키즈: ul 하위 div에서 추출
