@@ -55,7 +55,7 @@ def crawl_tistory():
                     title = title_tag.text.strip() if title_tag else "제목 없음"
 
                     if href and img_src:
-                        all_items.append({"페이지": page_num, "제목": title, "링크": href, "이미지": img_src})
+                        all_items.append({"title": title, "link": href, "image": img_src})
 
     print(f"✅ 총 {len(all_items)}개의 블로그 글을 크롤링 완료!")
     return all_items
