@@ -14,8 +14,8 @@ def crawl_fashion():
     # 세션 시작
     session = HTMLSession()
 
-    # 결과 저장 리스트
-    all_items = []
+    # ✅ 딕셔너리로 초기화 (리스트가 아닌 딕셔너리!)
+    all_items = {"남성": [], "여성": [], "키즈": []}
 
     # 각 카테고리에 대해 크롤링 실행
     for category, url in categories.items():
@@ -43,7 +43,7 @@ def crawl_fashion():
                     img_src = urljoin(url, img_tag["src"]) if img_tag else None  # 상대 경로 -> 절대 경로 변환
 
                     if href and img_src:
-                        all_items.append({"title": " ", "link": href, "image": img_src})
+                        all_items[category].append({"title": " ", "link": href, "image": img_src})
 
         elif category == "키즈":
             # 키즈: ul 하위 div에서 추출
@@ -59,11 +59,7 @@ def crawl_fashion():
                     img_src = urljoin(url, img_tag["src"]) if img_tag else None  # 상대 경로 변환
 
                     if href and img_src:
-                        all_items.append({"title": " ", "link": href, "image": img_src})
-
-
-    # all_items 초기화 (딕셔너리로 설정)
-    all_items = {"남성": [], "여성": [], "키즈": []}
+                        all_items[category].append({"title": " ", "link": href, "image": img_src})
 
     # 🔥 남성은 15개, 여성과 키즈는 20개씩 랜덤 선택
     sampled_items = {
