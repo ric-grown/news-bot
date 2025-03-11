@@ -21,16 +21,6 @@ if os.path.exists(GITHUB_IMAGE_FOLDER):
 else:
     os.makedirs(GITHUB_IMAGE_FOLDER)
 
-# 🔹 1️⃣ 이미지 URL을 Base64로 변환하는 함수
-def convert_image_to_base64(image_url):
-    try:
-        response = requests.get(image_url, timeout=5)  # 이미지 요청
-        if response.status_code == 200:
-            return f"data:image/jpeg;base64,{base64.b64encode(response.content).decode('utf-8')}"
-    except Exception as e:
-        print(f"❌ 이미지 변환 실패: {image_url}, 오류: {e}")
-    return image_url  # 변환 실패 시 원본 URL 유지
-
 # 🔹 2️⃣ JSON 저장 함수
 def save_json(filename, data):
     with open(filename, "w", encoding="utf-8") as f:
