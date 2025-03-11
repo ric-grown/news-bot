@@ -29,7 +29,7 @@ def crawl_tistory():
             response = session.get(url)
     
             # JavaScript 렌더링 실행 (3초 대기)
-            response.html.render(sleep=3)
+            response.html.render(sleep=5, timeout=30)
     
             # HTML 파싱
             soup = BeautifulSoup(response.html.html, "html.parser")
