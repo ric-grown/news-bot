@@ -61,6 +61,10 @@ def crawl_fashion():
                     if href and img_src:
                         all_items.append({"title": " ", "link": href, "image": img_src})
 
+
+    # all_items 초기화 (딕셔너리로 설정)
+    all_items = {"남성": [], "여성": [], "키즈": []}
+
     # 🔥 남성은 15개, 여성과 키즈는 20개씩 랜덤 선택
     sampled_items = {
         "남성": random.sample(all_items["남성"], min(15, len(all_items["남성"]))),
