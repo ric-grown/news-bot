@@ -1,6 +1,7 @@
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import time
 
 # 크롤링할 네이버 블로그 페이지 목록
 naver_blog_urls = [
