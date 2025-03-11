@@ -39,7 +39,7 @@ def download_and_save_image(image_url, filename):
     return None
 
 # ✅ 크롤링 데이터 처리 & 이미지 저장
-def process_crawled_data(crawled_data):
+def process_crawled_data(category, crawled_data):
     updated_data = []
     for i, item in enumerate(crawled_data):
         if "image" in item:
@@ -63,7 +63,7 @@ data_sources = {
 blog_data = crawl_blog()
 tistory_data = crawl_tistory()
 data_sources["blog_tistory"].extend(blog_data + tistory_data)
-data_sources["blog_tistory"] = process_crawled_data(data_sources["blog_tistory"])
+data_sources["blog_tistory"] = process_crawled_data("blog_tistory", data_sources["blog_tistory"])
 save_json("blog_tistory.json", data_sources["blog_tistory"])
 
 # 🔹 엔터테인먼트 크롤링
@@ -84,7 +84,7 @@ save_json("news.json", data_sources["news"])
 # 🔹 스포츠 크롤링
 sports_data = crawl_sports()
 data_sources["sports"].extend(sports_data)
-data_sources["sports"] = process_crawled_data(data_sources["sports"])
+data_sources["sports"] = process_crawled_data("sports", data_sources["sports"])
 save_json("sports.json", data_sources["sports"])
 
 # 🔥 6️⃣ 모든 데이터를 합쳐서 랜덤 50개 추출 → `hotissue.json` 저장
