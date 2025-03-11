@@ -45,27 +45,18 @@ save_json("blog_tistory.json", data_sources["blog_tistory"])
 
 # 🔹 엔터테인먼트 크롤링
 entertainment_data = crawl_entertainment()
-for item in entertainment_data:
-    if "image" in item:
-        item["image"] = convert_image_to_base64(item["image"])
-data_sources["entertainment"].extend(entertainment_data)
-save_json("entertainment.json", data_sources["entertainment"])
+with open("entertainment.json", "w", encoding="utf-8") as f:
+    json.dump(data_sources["entertainment"], f, ensure_ascii=False, indent=4)
 
 # 🔹 패션 크롤링
 fashion_data = crawl_fashion()
-for item in fashion_data:
-    if "image" in item:
-        item["image"] = convert_image_to_base64(item["image"])
-data_sources["fashion"].extend(fashion_data)
-save_json("fashion.json", data_sources["fashion"])
+with open("fashion.json", "w", encoding="utf-8") as f:
+    json.dump(data_sources["fashion"], f, ensure_ascii=False, indent=4)
 
 # 🔹 뉴스 크롤링
 news_data = crawl_news()
-for item in news_data:
-    if "image" in item:
-        item["image"] = convert_image_to_base64(item["image"])
-data_sources["news"].extend(news_data)
-save_json("news.json", data_sources["news"])
+with open("news.json", "w", encoding="utf-8") as f:
+    json.dump(data_sources["news"], f, ensure_ascii=False, indent=4)
 
 # 🔹 스포츠 크롤링
 sports_data = crawl_sports()
