@@ -1,58 +1,43 @@
 [
     {
-        "title": "넷플릭스 영화 추천 - 불금을 위한 액션 코미디 5편",
-        "link": "https://zu-review-the-movie.tistory.com/entry/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4-%EC%98%81%ED%99%94-%EC%B6%94%EC%B2%9C-%EB%B6%88%EA%B8%88%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%95%A1%EC%85%98-%EC%BD%94%EB%AF%B8%EB%94%94-5%ED%8E%B8",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_76.jpg"
+        "title": "[속보] 이강인(24·토트넘) '핵폭탄급' 이적 쏜다? 프랑스 매체도 확인!…\"630억 방출 예상, EPL 4개 구단 관심\"",
+        "link": "https://m.sports.naver.com/article/311/0001836574",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_1.jpg"
     },
     {
-        "title": "아직도 겨울인 내 일상",
-        "link": "https://blog.naver.com/vmflatpa89/223793081977",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_22.jpg"
-    },
-    {
-        "title": "3월 성수팝업스토어 삼성생명 라이프놀로지 랩 전시회 &시세이도 얼티뮨 팝업",
-        "link": "https://blog.naver.com/lowing1018/223792686131",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_26.jpg"
-    },
-    {
-        "title": "당일치기 군산 시내 여행 나혼자 뚜벅이",
-        "link": "https://blog.naver.com/plums-/223791891287",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_15.jpg"
+        "title": "‘전투기 오폭’ 조종사들, 고도도 수정···기존 오입력된 좌표는 군인아파트였다",
+        "link": "https://n.news.naver.com/article/032/0003356332?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/032/2025/03/12/0003356332_001_20250312223807709.jpeg?type=w860"
     },
     {
         "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/2718740?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
-        "image": "https://img.29cm.co.kr/item/202411/11efaae8c6ba57b39d18cd7435c9ff6b.jpg?width=400&format=webp"
+        "link": "https://product.29cm.co.kr/catalog/3129032?category_large_code=272100100",
+        "image": "https://img.29cm.co.kr/next-product/2025/03/07/626c2f32889c48afbdea8a808d71121e_20250307165014.jpg?width=400&format=webp"
+    },
+    {
+        "title": "[연안부두: 충청도 7호 횟집] 바다 보며 배부르게 즐기기 좋은 60첩 한상 차림 / 4인 B코스 후기",
+        "link": "https://cy-zoe-gg-story.tistory.com/entry/%EC%97%B0%EC%95%88%EB%B6%80%EB%91%90-%EC%B6%A9%EC%B2%AD%EB%8F%84-7%ED%98%B8-%ED%9A%9F%EC%A7%91-%EB%B0%94%EB%8B%A4-%EB%B3%B4%EB%A9%B0-%EB%B0%B0%EB%B6%80%EB%A5%B4%EA%B2%8C-%EC%A6%90%EA%B8%B0%EA%B8%B0-%EC%A2%8B%EC%9D%80-60%EC%B2%A9-%ED%95%9C%EC%83%81-%EC%B0%A8%EB%A6%BC-4%EC%9D%B8-B%EC%BD%94%EC%8A%A4-%ED%9B%84%EA%B8%B0",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_32.jpg"
     },
     {
         "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/2837606?category_large_code=272100100",
-        "image": "https://img.29cm.co.kr/item/202409/11ef75590c1bebae856acf8cefae8a55.jpg?width=400&format=webp"
+        "link": "https://product.29cm.co.kr/catalog/2363261?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
+        "image": "https://img.29cm.co.kr/item/202312/11ee93de4ffe1b41a5b39b5f05c7c4b3.jpg?width=400&format=webp"
     },
     {
-        "title": "이정후 또또 작심발언 \"대표팀 전력분석 부족, 고영표 대만전 등판 의아했다\"",
-        "link": "https://m.sports.naver.com/article/108/0003310137",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_7.jpg"
+        "title": "\"10년 동안 무슨 일이\"...'하늘양 살해' 명재완 과거 사진 보니",
+        "link": "https://n.news.naver.com/article/018/0005961106?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/018/2025/03/12/0005961106_001_20250312150308645.jpg?type=w860"
     },
     {
-        "title": "이진숙 \"野의원들 무고\" 최민희 \"정신 나간 이진숙\"",
-        "link": "https://n.news.naver.com/article/006/0000128960?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/006/2025/03/12/0000128960_001_20250312184811064.jpg?type=w860"
+        "title": "왜 재계약 배짱을 부려서…한국 떠난 게 실수, 결국 마이너 강등됐다 '연봉 반토막 위기'",
+        "link": "https://m.sports.naver.com/article/109/0005259405",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_22.jpg"
     },
     {
-        "title": "샌드위치창업 비교(프랜차이즈 샌드위치 창업을 비교해봄)",
-        "link": "https://blog.naver.com/sns2003/223791700431",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_19.jpg"
-    },
-    {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/2755626?category_large_code=268100100",
-        "image": "https://img.29cm.co.kr/item/202408/11ef6354340092578362ebc001abca44.jpg?width=400&format=webp"
-    },
-    {
-        "title": "50대에 도전해서 부자되는 법 - 서미숙 지음",
-        "link": "https://ryujm1975.tistory.com/992",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_69.jpg"
+        "title": "아빠어디가 송종국 딸 송지아 이렇게 예뻐졌다고?",
+        "link": "https://blog.naver.com/dudghaos/223793715575",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_14.jpg"
     },
     {
         "title": "김수현, 연일 과거 사생활 추가 폭로…유통가는 난리",
@@ -60,19 +45,89 @@
         "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202503%2F12%2Filgansports%2F20250312194712237flcc.jpg&scode=media"
     },
     {
-        "title": "깻잎김치 이렇게 만들었더니 완전 밥도둑이네요 찐깻잎김치 깻잎김치양념 깻잎찜 만들기 깻잎김치 황금레시피 생깻잎김치 김진옥 요리가 좋다",
-        "link": "https://hls3790.tistory.com/482757",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_39.jpg"
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3091052?category_large_code=268100100",
+        "image": "https://img.29cm.co.kr/next-product/2025/03/04/80ce2f7323c340358085ca6f791dc8df_20250304021057.jpg?width=400&format=webp"
     },
     {
-        "title": "역대급 인기를 끈 2025 인터배터리 전기차 캐즘을 대비하는 태도를 보다",
-        "link": "https://photohistory.tistory.com/505758",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_53.jpg"
+        "title": "One UI 7.0 배터리 보호 충전 제한 설정으로 배터리 수명을 보호해 보세요.",
+        "link": "https://minuhome.tistory.com/6487",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_54.jpg"
     },
     {
-        "title": "엠디바이스 상장일 공모가 넘길까",
-        "link": "https://kakao777.tistory.com/8047",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_60.jpg"
+        "title": "[442.live] 'WC 16강' 주역이었는데...자취 감춘 조규성→\"경기에 나설 수 없는 상황\"",
+        "link": "https://m.sports.naver.com/article/411/0000060384",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_19.jpg"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3091232?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
+        "image": "https://img.29cm.co.kr/item/202502/11eff27ecec1e7edaceabdaef17862a4.jpg?width=400&format=webp"
+    },
+    {
+        "title": "일본 후쿠오카 유후인 버스투어 예약 여행 후기",
+        "link": "https://blog.naver.com/80sunjin/223791299276",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_22.jpg"
+    },
+    {
+        "title": "“故김새론 ‘손목 상처’ 봤다…계단서 많이 울더라” 이웃주민 증언",
+        "link": "https://n.news.naver.com/article/018/0005961334?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/018/2025/03/12/0005961334_001_20250312231609190.jpg?type=w860"
+    },
+    {
+        "title": "법원행정처장 “‘윤 구속 취소’ 상급심 판단 받아봐야”···대검 \"관련 상황 검토 중\"",
+        "link": "https://n.news.naver.com/article/032/0003356328?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/032/2025/03/12/0003356328_001_20250312231609217.jpg?type=w860"
+    },
+    {
+        "title": "디즈니 플러스 추천작 : 디즈니 플러스 뭘 봐야되지? 2025년 3월 - 스포없는 리뷰",
+        "link": "https://lzed.tistory.com/1621",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_76.jpg"
+    },
+    {
+        "title": "김수현, '열애설' 故김새론 응원받으며 촬영했었다...\"론이가 준비한 커피♥\"",
+        "link": "https://v.daum.net/v/20250312103300702",
+        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202503%2F12%2Ftvreport%2F20250312103302176uveo.jpg&scode=media"
+    },
+    {
+        "title": "'계란 한판' 구입했다면 칼로 잘라 보세요~ 삶의 질이 달라져요",
+        "link": "https://timetogoback.tistory.com/514",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_40.jpg"
+    },
+    {
+        "title": "전시공간 지원 프로젝트 Ⅰ : 오금숙 개인展",
+        "link": "https://cho-a47.tistory.com/3169",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_71.jpg"
+    },
+    {
+        "title": "[배달 스시죠토(すし上等)] 일본 외노자 집사의 식사에 스며드는 중",
+        "link": "https://dumplingj.tistory.com/2163",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_46.jpg"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/2467037?category_large_code=272100100",
+        "image": "https://img.29cm.co.kr/item/202503/11effa7035c504c7acea27773a78ee18.jpg?width=400&format=webp"
+    },
+    {
+        "title": "손흥민 대신 주장 완장차고 선발 출전…'토트넘 내분 유발, 불만 숨기지 않았다'",
+        "link": "https://m.sports.naver.com/article/117/0003920862",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_21.jpg"
+    },
+    {
+        "title": "2025 뮤지컬 라인업 멤피스 위키드 레드북 맘마미아 렌트 물랑루즈 킹키부츠 팬텀 매디슨카운티의 다리 비틀쥬스! 등 기본정보 티켓팅 예매",
+        "link": "https://blog.naver.com/wait_forme/223793682681",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_0.jpg"
+    },
+    {
+        "title": "데몬시티 악귀 죽이기는 액션만 볼만한 서사가 텅 빈 영화",
+        "link": "https://photohistory.tistory.com/505757",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_72.jpg"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/2943160?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
+        "image": "https://img.29cm.co.kr/item/202411/11ef9da45bbc50f99eecc3570c0cb320.jpg?width=400&format=webp"
     },
     {
         "title": "'강경준 불륜 용서' 장신영, 자발적 미혼모 됐다…배 속 아이 잃을 위기까지",
@@ -80,9 +135,99 @@
         "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202503%2F12%2F10asia%2F20250312230104607cqxz.jpg&scode=media"
     },
     {
-        "title": "오렌지 껍질 그냥 벗기지 좀 마세요! 이렇게 하면 감탄이 절로 나오네요",
-        "link": "https://automobility.tistory.com/2393",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_37.jpg"
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3113096?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
+        "image": "https://img.29cm.co.kr/item/202502/11eff4ec9a76f113acea773cfe002339.png?width=400&format=webp"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3037377?category_large_code=268100100",
+        "image": "https://img.29cm.co.kr/item/202503/11effd524ea24eb48b633515454ab576.jpg?width=400&format=webp"
+    },
+    {
+        "title": "다들 \"사라\" 일색인데 \"팔아라\" 리포트 3건 등장…더 늘어날까",
+        "link": "https://n.news.naver.com/article/008/0005164811?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/008/2025/03/12/0005164811_001_20250313041836471.jpg?type=w860"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/2789386?category_large_code=272100100",
+        "image": "https://img.29cm.co.kr/item/202502/11efee000496630c8f0afbefeb37f25c.jpg?width=400&format=webp"
+    },
+    {
+        "title": "195cm 큰 키, 긴머리 휘날리며 154km 윽박 1이닝 삭제....7년만에 진가 드러낸 미완의 대물, KIA에 이런 투수 있었나 [오!쎈 창원]",
+        "link": "https://m.sports.naver.com/article/109/0005258650",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_13.jpg"
+    },
+    {
+        "title": "[IN POINT] 월드컵 영웅이 사라졌다, 9개월째 못 뛰는 조규성...\"경기 나설 상황 아냐\"",
+        "link": "https://m.sports.naver.com/article/413/0000193389",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_18.jpg"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3071467?category_large_code=272100100",
+        "image": "https://img.29cm.co.kr/item/202502/11efeab31a9bfa31852173d476845b3b.jpg?width=400&format=webp"
+    },
+    {
+        "title": "🏡 2025 전세보증금 지원 총정리! 신청 방법부터 지급 일정까지",
+        "link": "https://sugar-family.tistory.com/488",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_62.jpg"
+    },
+    {
+        "title": "칼국수→초밥→햄버거를 쉬지 않고 먹었다니…韓 최고령 홀드왕&25억 FA 대박 이유 있구나 \"먹고 찌워야 하는 운명\"",
+        "link": "https://m.sports.naver.com/article/117/0003921075",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_37.jpg"
+    },
+    {
+        "title": "비타민C 꼬박꼬박 먹었는데…\"사망률 높인다\" 권장섭취량의 함정",
+        "link": "https://n.news.naver.com/article/008/0005164697?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/008/2025/03/12/0005164697_001_20250312143112646.jpg?type=w860"
+    },
+    {
+        "title": "다이어트 레시피 두부 소고기 유부초밥 만들기 이마트 자연방목 소고기",
+        "link": "https://blog.naver.com/this840/223792997687",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_7.jpg"
+    },
+    {
+        "title": "드디어 공학대학원 졸업하다!!",
+        "link": "https://waggo.tistory.com/2594",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_60.jpg"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/2958945?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
+        "image": "https://img.29cm.co.kr/next-product/2024/11/20/da63c902d07649e48a4f64d18c29df38_20241120094552.jpg?width=400&format=webp"
+    },
+    {
+        "title": "닭볶음탕 , 맛있고 간단하게 만들어 먹기",
+        "link": "https://elioliostar.tistory.com/entry/%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95-%EB%A7%9B%EC%9E%88%EA%B3%A0-%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%A8%B9%EA%B8%B0",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_41.jpg"
+    },
+    {
+        "title": "바다어랑 제주 순살 고등어 감자전분튀김 고등어스테이크",
+        "link": "https://blog.naver.com/by_sha/223789906945",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_23.jpg"
+    },
+    {
+        "title": "왕대숲길",
+        "link": "https://gs365.tistory.com/665",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_82.jpg"
+    },
+    {
+        "title": "전북의 봄! 전북 가볼만한곳 베스트10 봄 여행지",
+        "link": "https://gorong2023.tistory.com/entry/%EC%A0%84%EB%B6%81%EC%9D%98-%EB%B4%84-%EC%A0%84%EB%B6%81-%EA%B0%80%EB%B3%BC%EB%A7%8C%ED%95%9C%EA%B3%B3-%EB%B2%A0%EC%8A%A4%ED%8A%B810-%EB%B4%84-%EC%97%AC%ED%96%89%EC%A7%80",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_31.jpg"
+    },
+    {
+        "title": "전국 3대 짬뽕 맛집 비교 공주동해원 vs 군산복성루 vs 강릉교동짬뽕 과연 최고의 맛은 어디일까?",
+        "link": "https://ks8221.tistory.com/145",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_29.jpg"
+    },
+    {
+        "title": "김수현 지인 \"故김새론 나이 때문에 열애 인정 절대 못할 것\"",
+        "link": "https://v.daum.net/v/20250312183231182",
+        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202503%2F12%2Ftvreport%2F20250312183231349aeuf.jpg&scode=media"
     },
     {
         "title": "김수현, 해외 최대 팬 계정도 '손절'… \"한때 추앙했던 그 배우, 이젠 안녕\"",
@@ -91,162 +236,17 @@
     },
     {
         "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/1585984?category_large_code=272100100",
-        "image": "https://img.29cm.co.kr/item/202404/11ef05fad102a907b9bb8505c6cbdaf0.jpg?width=400&format=webp"
-    },
-    {
-        "title": "[속보] '大충격' 토트넘, 손흥민 방출→'통산 107골' 세리에 A 폭격기 영입 '임박'…이적료 500억",
-        "link": "https://m.sports.naver.com/article/139/0002219788",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_27.jpg"
-    },
-    {
-        "title": "전시공간 지원 프로젝트 Ⅰ : 오금숙 개인展",
-        "link": "https://cho-a47.tistory.com/3169",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_72.jpg"
-    },
-    {
-        "title": "MLB닷컴, 타율 0.455 배지환 개막 로스터 언급조차 안 해...김혜성도 마이너행, 이정후만 '독야청청'하나?",
-        "link": "https://m.sports.naver.com/article/425/0000161038",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_35.jpg"
-    },
-    {
-        "title": "김수현, 안 사귄 거면 더 문제‥미성년자 故 김새론에 뽀뽀해놓고 왜 외면했나?",
-        "link": "https://v.daum.net/v/20250312150847346",
-        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202503%2F12%2Fnewsen%2F20250312150847633epjj.jpg&scode=media"
-    },
-    {
-        "title": "서울 연극 공연 추천 노이즈오프 후기 동국대 이해랑예술극장 시야",
-        "link": "https://blog.naver.com/love2hg_/223793076270",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_29.jpg"
-    },
-    {
-        "title": "[Python] 파이썬 CSV 파일 한글 깨지는 문제 3가지 해결 방법",
-        "link": "https://spirit0833.tistory.com/213",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_51.jpg"
-    },
-    {
-        "title": "김수현 지인 \"故김새론 나이 때문에 열애 인정 절대 못할 것\"",
-        "link": "https://v.daum.net/v/20250312183231182",
-        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202503%2F12%2Ftvreport%2F20250312183231349aeuf.jpg&scode=media"
-    },
-    {
-        "title": "[속보] 이강인(24·토트넘) '핵폭탄급' 이적 쏜다? 프랑스 매체도 확인!…\"630억 방출 예상, EPL 4개 구단 관심\"",
-        "link": "https://m.sports.naver.com/article/311/0001836574",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_1.jpg"
+        "link": "https://product.29cm.co.kr/catalog/2521806?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
+        "image": "https://img.29cm.co.kr/item/202404/11eef7bce58a1cce9367fbfa79fbebf2.jpg?width=400&format=webp"
     },
     {
         "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3085366?category_large_code=268100100",
-        "image": "https://img.29cm.co.kr/item/202502/11eff437b02a85b48b63a73639cc1da5.jpg?width=400&format=webp"
+        "link": "https://product.29cm.co.kr/catalog/3112011?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
+        "image": "https://img.29cm.co.kr/item/202502/11eff4e61b860cfa8b6373f430f6e69b.png?width=400&format=webp"
     },
     {
-        "title": "[영상] 박은정 \"내란을 내란이라고 말도 못 해요?\"",
-        "link": "https://n.news.naver.com/article/006/0000128961?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/006/2025/03/12/0000128961_001_20250312195811466.jpg?type=w860"
-    },
-    {
-        "title": "'충격! 이러니 개그프로가 망하지' EPL 사상 첫 '경질 후 감독상' 촌극, 포스테코글루 토트넘 감독이 유력후보",
-        "link": "https://m.sports.naver.com/article/076/0004252948",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_4.jpg"
-    },
-    {
-        "title": "강남역 인근서 여자친구 살해한 수능 만점 명문대 의대생 “징역 26년 감형해달라”",
-        "link": "https://n.news.naver.com/article/087/0001103697?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/087/2025/03/12/0001103697_001_20250312181609774.jpg?type=w860"
-    },
-    {
-        "title": "송모찌블로그 / 다이소 니들샷 300,마두 이종구낙지세상 코다리찜,파주 출판단지 카페 temps 템스커피,공덕 맛집 오리재,마포 오리재,라페스타 서울파전닭갈비,나고야여행 프리뷰",
-        "link": "https://blog.naver.com/dbswjd877/223793237944",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_24.jpg"
-    },
-    {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/2498922?category_large_code=272100100",
-        "image": "https://img.29cm.co.kr/item/202408/11ef667a94bdbb56a9803b4c927dab6a.png?width=400&format=webp"
-    },
-    {
-        "title": "법원행정처장 \"즉시항고 필요\"…대검 \"법사위 상황 관련 검토 중\"",
-        "link": "https://n.news.naver.com/article/437/0000433129?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/437/2025/03/12/0000433129_001_20250312194620288.jpg?type=w860"
-    },
-    {
-        "title": "“배우 김수현 광고 어쩌지”…고민에 빠진 유통사들",
-        "link": "https://n.news.naver.com/article/366/0001060369?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/366/2025/03/12/0001060369_001_20250312162614440.jpg?type=w860"
-    },
-    {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3030658?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
-        "image": "https://img.29cm.co.kr/item/202501/11efd3b1a000be4e8f0ad99ef5a56431.jpg?width=400&format=webp"
-    },
-    {
-        "title": "[현장포커스] 단호한 홍명보 감독, \"손흥민, 출전 시간 적고, 득점도 줄었다?\"...\"지금까지 해온 것 잊어선 안 된다\"",
-        "link": "https://m.sports.naver.com/article/139/0002219683",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_10.jpg"
-    },
-    {
-        "title": "'한국에 왜 왔지?' 단 1피안타 KKKK 괴물투, 좌완 니퍼트 재림인가... ML 28승 투수다운 위용 '기대감 커진다'",
-        "link": "https://m.sports.naver.com/article/108/0003310149",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_2.jpg"
-    },
-    {
-        "title": "오션뷰 끝판왕! 미야코지마 호텔 웰니스 빌라 브리사 리조트 숙소 2박 후기",
-        "link": "https://blog.naver.com/shootar/223793247201",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_3.jpg"
-    },
-    {
-        "title": "대전 김하늘 양 살해 여교사는 48세 명재완…30일간 신상 공개",
-        "link": "https://n.news.naver.com/article/087/0001103530?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/087/2025/03/12/0001103530_001_20250312184810025.jpg?type=w860"
-    },
-    {
-        "title": "[코너의 게임블로그]데스 스트랜딩2, PS5 게임 버전 출시일부터 가격, 마동석 출연까지 확정 발표.",
-        "link": "https://blog.naver.com/kdww1203/223791478789",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_17.jpg"
-    },
-    {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3085403?category_large_code=268100100",
-        "image": "https://img.29cm.co.kr/item/202503/11effa79e9f838568b63f9c9925176cb.jpg?width=400&format=webp"
-    },
-    {
-        "title": "[리뷰] 거제도에서 유명한 돼지갈비 맛집 용쓰네 밀키트 택배 배달 후기",
-        "link": "https://blog.naver.com/ksie322/223792988392",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_13.jpg"
-    },
-    {
-        "title": "영월 남면서 교통사고 수습 중 2차 사고…60대 숨져",
-        "link": "https://n.news.naver.com/article/087/0001103529?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/087/2025/03/12/0001103529_001_20250312090908907.jpg?type=w860"
-    },
-    {
-        "title": "초등학생 수준 영어 100문장 함께 공부해요",
-        "link": "https://kshks012.tistory.com/41",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_62.jpg"
-    },
-    {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3094208?category_large_code=272100100",
-        "image": "https://img.29cm.co.kr/item/202502/11efef6f514c2e28867e87001ce80d57.jpg?width=400&format=webp"
-    },
-    {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/2672471?category_large_code=268100100",
-        "image": "https://img.29cm.co.kr/item/202411/11efaba10f5cd0999316459f0ec79b97.jpg?width=400&format=webp"
-    },
-    {
-        "title": "가상자산 카드 꺼내든 정치권, ‘코인러’ 표심 러브콜",
-        "link": "https://n.news.naver.com/article/082/0001315783?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/082/2025/03/12/0001315783_001_20250312180919667.png?type=w860"
-    },
-    {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/2639749?categoryLargeCode=290100100&categoryMediumCode=&sort=RECOMMEND&defaultSort=RECOMMEND&sortOrder=DESC&page=1",
-        "image": "https://img.29cm.co.kr/item/202405/11ef1967161475a7bb14c9b6e997bf6f.jpg?width=400&format=webp"
-    },
-    {
-        "title": "최근 중국 드라마 방송 지수 상위 10위. 우서흔 \"허, 국왕재동면\" 6위, \"난홍\" 3위",
-        "link": "https://blog.naver.com/keai9224/223793400224",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_2.jpg"
+        "title": "넷플릭스 영화 추천 - 불금을 위한 액션 코미디 5편",
+        "link": "https://zu-review-the-movie.tistory.com/entry/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4-%EC%98%81%ED%99%94-%EC%B6%94%EC%B2%9C-%EB%B6%88%EA%B8%88%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%95%A1%EC%85%98-%EC%BD%94%EB%AF%B8%EB%94%94-5%ED%8E%B8",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_75.jpg"
     }
 ]
