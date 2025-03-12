@@ -100,103 +100,103 @@
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_19.jpg"
     },
     {
-        "title": "손흥민 대신 주장 완장차고 선발 출전…'토트넘 내분 유발, 불만 숨기지 않았다'",
-        "link": "https://m.sports.naver.com/article/117/0003920862",
+        "title": "퍼거슨 해고+직원 감축+밥값도 없다더니...맨유, 3조 7000억원 새 구장 신축 결정 → 쥐 나오는 올드 트래포드와 작별",
+        "link": "https://m.sports.naver.com/article/477/0000538904",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_20.jpg"
     },
     {
-        "title": "다저스 공식 발표, 김혜성 도쿄 아닌 마이너리그행 \"트리플A OKC로 간다\"",
-        "link": "https://m.sports.naver.com/article/477/0000538885",
+        "title": "칼국수→초밥→햄버거를 쉬지 않고 먹었다니…韓 최고령 홀드왕&25억 FA 대박 이유 있구나 \"먹고 찌워야 하는 운명\"",
+        "link": "https://m.sports.naver.com/article/117/0003921075",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_21.jpg"
-    },
-    {
-        "title": "'3번타자' 이정후, 애슬레틱스전 2루타 '쾅'+4G 연속 득점...시범경기 타율 0.333",
-        "link": "https://m.sports.naver.com/article/311/0001837289",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_22.jpg"
     },
     {
         "title": "이택근 '메이저리그 경기 같다'... 한화, 강속구+노시환 홈런으로 SSG 완파",
         "link": "https://m.sports.naver.com/article/425/0000161024",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_22.jpg"
+    },
+    {
+        "title": "\"김혜성 공격력? 韓 시절부터 제기된 문제\"...개막 앞두고 마이너행, 결국 타격이 발목 잡았나",
+        "link": "https://m.sports.naver.com/article/311/0001837371",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_23.jpg"
-    },
-    {
-        "title": "김도영이 갑자기 사라졌다…KIA가 김도영 없는 삶도 익숙해져야 한다, 이 선수들이 특히 중요하다[MD창원]",
-        "link": "https://m.sports.naver.com/article/117/0003920859",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_24.jpg"
-    },
-    {
-        "title": "맨유 빚이 2조원→그런데 3조7000억원 짜리 신구장 건설?…기대 반, 걱정 반",
-        "link": "https://m.sports.naver.com/article/311/0001837319",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_25.jpg"
-    },
-    {
-        "title": "레전드 정민철, 친정팀 한화에 쓴소리…\"출루율 0.337 심우준 리드오프 부적합\"",
-        "link": "https://m.sports.naver.com/article/450/0000123444",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_26.jpg"
-    },
-    {
-        "title": "맨유가 단돈 '95억'에 버린 재능, 잠재력 폭발했다...핵심 MF 등극+승격 가능성↑",
-        "link": "https://m.sports.naver.com/article/411/0000060451",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_27.jpg"
     },
     {
         "title": "MLB닷컴, 타율 0.455 배지환 개막 로스터 언급조차 안 해...김혜성도 마이너행, 이정후만 '독야청청'하나?",
         "link": "https://m.sports.naver.com/article/425/0000161038",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_24.jpg"
+    },
+    {
+        "title": "[속보] 충격! 손흥민 어떡해? SON 이영표처럼 쓰는 포스텍 감독 '무조건 유임'…\"유로파 탈락? 레비가 보호할 것\"",
+        "link": "https://m.sports.naver.com/article/311/0001837356",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_25.jpg"
+    },
+    {
+        "title": "손흥민 대신 주장 완장차고 선발 출전…'토트넘 내분 유발, 불만 숨기지 않았다'",
+        "link": "https://m.sports.naver.com/article/117/0003920862",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_26.jpg"
+    },
+    {
+        "title": "우승 좀 하자! 손흥민 작심 발언에 BBC도 주목…\"엉성하게 시작→실점→추격, 너무 많아\"",
+        "link": "https://m.sports.naver.com/article/311/0001837376",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_27.jpg"
+    },
+    {
+        "title": "레전드 정민철, 친정팀 한화에 쓴소리…\"출루율 0.337 심우준 리드오프 부적합\"",
+        "link": "https://m.sports.naver.com/article/450/0000123444",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_28.jpg"
     },
     {
-        "title": "LA 다저스 김혜성, 도쿄행 불발…마이너리그서 시즌 시작",
-        "link": "https://m.sports.naver.com/article/020/0003620704",
+        "title": "'공정률 65%' 정몽규 완공 자신...손흥민-이강인 자고 뛴다 → 가을께 공개 속도 내는 천안축구종합센터",
+        "link": "https://m.sports.naver.com/article/477/0000538902",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_29.jpg"
     },
     {
-        "title": "'대충격' 손흥민 \"홈에서 승점 3점!!!\" 팬들에겐 \"승리하겠다! 응원부탁!!\"",
-        "link": "https://m.sports.naver.com/article/109/0005259676",
+        "title": "\"물만난 바람의 손자\" SF 구단도 신났다, 이정후 헬멧 벗고 2루타 질주...11경기 연속 출루",
+        "link": "https://m.sports.naver.com/article/076/0004253521",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_30.jpg"
     },
     {
-        "title": "\"JTBC가 최강야구 IP 강탈하려 해\"…장시원 PD 반박",
-        "link": "https://m.sports.naver.com/article/003/0013113528",
+        "title": "\"한국 있을 때부터 타격이 의문이었는데…\" 김혜성 마이너 강등, 우려가 현실로 나타났다",
+        "link": "https://m.sports.naver.com/article/109/0005259813",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_31.jpg"
-    },
-    {
-        "title": "日 치료 복귀하자마자 훈련 자청…\"난 아직도 간절해, 경쟁 자극 받는다\" 롯데 2루수 전설 계보 이을 남자의 진심",
-        "link": "https://m.sports.naver.com/article/109/0005259626",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_32.jpg"
-    },
-    {
-        "title": "불붙은 노시환의 방망이, '몬스터월'도 넘길까? \"죽어도 안 넘어가던데요?\"",
-        "link": "https://m.sports.naver.com/article/079/0004001243",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_33.jpg"
-    },
-    {
-        "title": "[속보]'충격 계획' 맨시티, '감독 GOAT' 과르디올라 경질 예고? 대체자 준비 완료...주인공은 'EPL 천재 미드필더 출신 신흥 명장'",
-        "link": "https://m.sports.naver.com/article/076/0004253356",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_34.jpg"
-    },
-    {
-        "title": "네일-올러 원투펀치 아니었어? 이범호 감독은 왜 '대투수' 2선발 카드 만지작거릴까",
-        "link": "https://m.sports.naver.com/article/076/0004253594",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_35.jpg"
-    },
-    {
-        "title": "‘새로운 도전’ 이상범 감독 “계약기간? 감독은 성적으로 말하는 것”",
-        "link": "https://m.sports.naver.com/article/065/0000275986",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_36.jpg"
     },
     {
         "title": "'UFO 궤적' 이정후 깎여맞았는데 2루타 폭발이라니! 대단하네→헬멧 폭풍 질주까지 '웨이트 효과인가'",
         "link": "https://m.sports.naver.com/article/108/0003310778",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_32.jpg"
+    },
+    {
+        "title": "‘159km’ 문동주 보고 웃는 ‘156km’ 김서현, 왜 “말이 안 된다” 흥분했을까",
+        "link": "https://m.sports.naver.com/article/109/0005259527",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_33.jpg"
+    },
+    {
+        "title": "‘155㎞ 안팎’ 폰세-와이스-문동주-김서현-정우주, 선발에서 불펜까지 한화표 파이어볼러 세팅 완료",
+        "link": "https://m.sports.naver.com/article/382/0001183680",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_34.jpg"
+    },
+    {
+        "title": "\"지금 세상에서 가장 행복한 사나이\" 울보 백승호의 '1보 후퇴' 전략 옳았다…시즌 첫 골 '쾅'→英챔피언십 승격 '눈앞'",
+        "link": "https://m.sports.naver.com/article/076/0004253618",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_35.jpg"
+    },
+    {
+        "title": "‘큰일 날 뻔’ 안치홍, 왼손 맞고 부상 교체...왜 김경문 감독은 이숭용 감독에게 “고맙다”고 했을까",
+        "link": "https://m.sports.naver.com/article/109/0005259794",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_36.jpg"
+    },
+    {
+        "title": "토트넘 또또 'SON, 해줘!' 불가피…英 깜짝 놀란 손흥민 분노, 선발 출격 예상→단소 부상 OUT 위기",
+        "link": "https://m.sports.naver.com/article/076/0004253627",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_37.jpg"
     },
     {
-        "title": "백승호의 3부 재계약, 최고의 선택...주전 확실+시즌 첫 골→버밍엄 우승 유력 '승격 보인다'",
-        "link": "https://m.sports.naver.com/article/413/0000193497",
+        "title": "손흥민 도망쳐! 최악의 소식...\"토트넘, 포스테코글루 경질 가능성 낮다\"",
+        "link": "https://m.sports.naver.com/article/076/0004253630",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_38.jpg"
     },
     {
-        "title": "3연속 2위 '유력' 아스널, 다음엔 진짜 우승이다...'그리즈만+오블락+알바레스' 터트린 ATM 핵심 영입 결정→새 디렉터 선임 유력",
-        "link": "https://m.sports.naver.com/article/117/0003921025",
+        "title": "다저스 김혜성, 마이너리그에서 새 시즌",
+        "link": "https://m.sports.naver.com/article/082/0001315780",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_39.jpg"
     }
 ]
