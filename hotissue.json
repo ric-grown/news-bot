@@ -1,108 +1,203 @@
 [
     {
-        "title": "먹방 유튜버 밴쯔, 부러진 손으로 윤형빈 상대 [로드FC]",
-        "link": "https://m.sports.naver.com/article/410/0001075957",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_21.jpg"
+        "title": "KT팬 작별 인사 한 마디 없이 줄행랑, 그렇게 예능 야구 감독하고 싶었나?…'33년 인연' 이강철 신의 저버렸다",
+        "link": "https://m.sports.naver.com/article/311/0001884476",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_0.jpg"
     },
     {
-        "title": "이국적인데 부담 없는 ‘물가 착한 유럽 느낌’ 여행지 TOP3",
-        "link": "https://blog.naver.com/happy__am/223914282567",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_22.jpg"
-    },
-    {
-        "title": "알토란 546회 이상민 궁셰프의 골뱅이탕 만드는 법",
-        "link": "https://seon1982.tistory.com/3632",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_73.jpg"
-    },
-    {
-        "title": "'나는 솔로' 출연자 성폭행 혐의 구속…25기 '영철' 지목되며 파문 확산",
-        "link": "https://freedy20.tistory.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%84%B1%ED%8F%AD%ED%96%89-%ED%98%90%EC%9D%98-%EA%B5%AC%EC%86%8D%E2%80%A625%EA%B8%B0-%EC%98%81%EC%B2%A0-%EC%A7%80%EB%AA%A9%EB%90%98%EB%A9%B0-%ED%8C%8C%EB%AC%B8-%ED%99%95%EC%82%B0",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_76.jpg"
+        "title": "[속보]내란특검, 윤석열에 ‘30일 오전 9시’ 출석 통보···“조사할 내용 많이 남았다”",
+        "link": "https://n.news.naver.com/article/032/0003379191?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/032/2025/06/29/0003379191_001_20250629094910739.jpg?type=w860"
     },
     {
         "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3096502?category_large_code=268100100",
-        "image": "https://img.29cm.co.kr/item/202502/11eff01d8f442451acea0deff1a61390.jpg?width=400&format=webp"
+        "link": "https://product.29cm.co.kr/catalog/3318198?category_large_code=268100100",
+        "image": "https://img.29cm.co.kr/item/202506/11f0403ab666652fbb062dd9348a4e80.jpg?width=400&format=webp"
     },
     {
-        "title": "6월 마지막 불금 부천 풍경(2025년 6월 27일)",
-        "link": "https://tecmo17.tistory.com/2040",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_49.jpg"
-    },
-    {
-        "title": "강한 사람 (젠틸 편) 2/2",
-        "link": "https://stadela0309.tistory.com/1711",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_82.jpg"
-    },
-    {
-        "title": "“다저스 좌익수 트레이드 가능성↓” 김혜성 희망고문? 232억원 애물단지가 어떻게 되든 백업이다",
-        "link": "https://m.sports.naver.com/article/117/0003958533",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_33.jpg"
-    },
-    {
-        "title": "'신세계 외손녀' 애니, 집안 반대 딛고 데뷔 \"母 정유경, 죽어도 안 된다고\"",
-        "link": "https://v.daum.net/v/20250628211231224",
-        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F28%2Fmydaily%2F20250628211232590fima.jpg&scode=media"
-    },
-    {
-        "title": "'쓰저씨' 김석훈, 다 방송용 이미지였나…검소하다더니 폭풍 쇼핑",
-        "link": "https://v.daum.net/v/20250628213242517",
-        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F28%2F10asia%2F20250628213243781ewzm.jpg&scode=media"
-    },
-    {
-        "title": "포드 익스플로러의 오프로드 모델 '트레머' 공개 정보 알아보기",
-        "link": "https://havanavis.tistory.com/entry/%ED%8F%AC%EB%93%9C-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%AC%EC%9D%98-%EC%98%A4%ED%94%84%EB%A1%9C%EB%93%9C-%EB%AA%A8%EB%8D%B8-%ED%8A%B8%EB%A0%88%EB%A8%B8-%EA%B3%B5%EA%B0%9C-%EC%A0%95%EB%B3%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_84.jpg"
+        "title": "\"한국에 감사하다\" 재계약 실패로 떠났는데…1379일 만에 ML 승리 감격, 전직 LG맨 '반전의 비밀'",
+        "link": "https://m.sports.naver.com/article/109/0005338278",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_2.jpg"
     },
     {
         "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/2460665?category_large_code=272100100",
-        "image": "https://img.29cm.co.kr/item/202505/11f02bd10b0807bdb1702fce014c6158.jpg?width=400&format=webp"
+        "link": "https://product.29cm.co.kr/catalog/993892?category_large_code=272100100",
+        "image": "https://img.29cm.co.kr/item/202505/11f03ac12bbb75bfbb06378befe19853.jpg?width=400&format=webp"
     },
     {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3023589?category_large_code=272100100",
-        "image": "https://img.29cm.co.kr/item/202502/11efea8609fce36c8f0a277afcd1c1b5.jpg?width=400&format=webp"
+        "title": "이효리 \"女 가슴 사이즈로 놀렸었는데…\" 달라진 예능 적응에 '혼란'",
+        "link": "https://v.daum.net/v/20250629061005359",
+        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F29%2Fxportsnews%2F20250629061006801lxiu.jpg&scode=media"
     },
     {
-        "title": "<덴마크 요거밀통오트 플레인> - 솔직 후기 / 간단한 아침 식사 대용",
-        "link": "https://mingky-hyung-a.tistory.com/entry/%EB%8D%B4%EB%A7%88%ED%81%AC-%EC%9A%94%EA%B1%B0%EB%B0%80%ED%86%B5%EC%98%A4%ED%8A%B8-%ED%94%8C%EB%A0%88%EC%9D%B8-%EC%86%94%EC%A7%81-%ED%9B%84%EA%B8%B0-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%95%84%EC%B9%A8-%EC%8B%9D%EC%82%AC-%EB%8C%80%EC%9A%A9",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_41.jpg"
+        "title": "달개비 큰까치수염",
+        "link": "https://gs365.tistory.com/722",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_79.jpg"
     },
     {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3317320?category_large_code=268100100",
-        "image": "https://img.29cm.co.kr/item/202506/11f045d33386bf218909b7ce0d1efc8b.jpg?width=400&format=webp"
+        "title": "삼성 무선이어폰 중 제일 저렴한 갤럭시 버즈 코어 가격? 액티브 노이즈 캔슬링과 방수 추가 및 배터리 수명도",
+        "link": "https://jongamk.tistory.com/526173",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_51.jpg"
     },
     {
-        "title": "[증시 리포트] 2025년 하반기 미국 주식, 대형주만 웃는 이유는? 성장주는 계속 달릴까?",
-        "link": "https://hwp213.tistory.com/entry/%EC%A6%9D%EC%8B%9C-%EB%A6%AC%ED%8F%AC%ED%8A%B8-2025%EB%85%84-%ED%95%98%EB%B0%98%EA%B8%B0-%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A7%8C-%EC%9B%83%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EC%84%B1%EC%9E%A5%EC%A3%BC%EB%8A%94-%EA%B3%84%EC%86%8D-%EB%8B%AC%EB%A6%B4%EA%B9%8C",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_58.jpg"
+        "title": "계약서 사인하면서 눈물 펑펑 쏟았다... '약물 징계 해제' 포그바, 모나코 전격 입단 [오피셜]",
+        "link": "https://m.sports.naver.com/article/108/0003342444",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_37.jpg"
     },
     {
-        "title": "'세계에서 가장 비싼 4,412억 투수' 야마모토 완벽투 \"다저스 전설 허샤이저가 떠올랐다\"",
-        "link": "https://m.sports.naver.com/article/139/0002226637",
+        "title": "“1억에 ‘벤츠 침수차’ 샀다”…악취·오물 흔적없다고 안심하다 제대로 당했다 [세상만車]",
+        "link": "https://n.news.naver.com/article/009/0005516343?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/009/2025/06/29/0005516343_001_20250629072211129.jpg?type=w860"
+    },
+    {
+        "title": "이종범 욕할 순 없지만…아무리 감독이라도 시즌 중에 야구 그만두고 예능이라니, 박수는 못 쳐줍니다",
+        "link": "https://m.sports.naver.com/article/117/0003958479",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_6.jpg"
     },
     {
-        "title": "카톡 스포방지 기능 카카오톡 모자이크 메세지 사용법 참신하네!",
-        "link": "https://blog.naver.com/aimei96/223906855171",
+        "title": "韓 축구, 터질 것이 터졌다!…'벤버지' 벤투, 중국 이끌고 대한민국과 충돌?→中 언론 \"사령탑 후보로 유력, 모든 면에서 이상적\"",
+        "link": "https://m.sports.naver.com/article/311/0001884756",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_23.jpg"
+    },
+    {
+        "title": "일본대지진 예상과 난카이 예언, 진짜 여행 가도 될까?",
+        "link": "https://blog.naver.com/00sweetlove/223912740592",
         "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_19.jpg"
     },
     {
         "title": "\"열흘 뒤에 다시 보자\" KIA는 왜 다 잡은 승리 날린 투수에게 이런 약속을…그게 헌신이니까",
         "link": "https://m.sports.naver.com/article/477/0000557262",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_39.jpg"
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_19.jpg"
     },
     {
-        "title": "BBC급 속보 터졌다! 김민재(28·뉴캐슬) 드디어 급물살 \"여름 이적 대화 있었다\"→\"KIM도 떠나고 싶어해\" 독일 1티어 기자 인정",
-        "link": "https://m.sports.naver.com/article/311/0001884616",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_32.jpg"
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3208328?category_large_code=268100100",
+        "image": "https://img.29cm.co.kr/item/202504/11f015ad415377b9b170051ddb03ea78.jpg?width=400&format=webp"
     },
     {
-        "title": "“‘일본 대지진’ 진짜 현실되나”…‘전설의 심해어’ 올해만 벌써 5마리 출현",
-        "link": "https://n.news.naver.com/article/016/0002491604?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/016/2025/06/28/0002491604_001_20250628095014149.jpg?type=w860"
+        "title": "'23억  대박' 1178회 로또 1등 행운의 주인공은 12명",
+        "link": "https://n.news.naver.com/article/082/0001332823?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/082/2025/06/28/0001332823_001_20250628221310493.png?type=w860"
+    },
+    {
+        "title": "한입에 반하는 스팸부침개 꼭 드셔보세요~",
+        "link": "https://cocohouse.tistory.com/entry/%ED%95%9C%EC%9E%85%EC%97%90-%EB%B0%98%ED%95%98%EB%8A%94-%EC%8A%A4%ED%8C%B8%EB%B6%80%EC%B9%A8%EA%B0%9C-%EA%BC%AD-%EB%93%9C%EC%85%94%EB%B3%B4%EC%84%B8%EC%9A%94",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_37.jpg"
+    },
+    {
+        "title": "리츠 투자 초보자 가이드, 월배당 받는 부동산 간접투자 완벽 정리",
+        "link": "https://knw220901.tistory.com/entry/%EB%A6%AC%EC%B8%A0-%ED%88%AC%EC%9E%90-%EC%B4%88%EB%B3%B4%EC%9E%90-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%9B%94%EB%B0%B0%EB%8B%B9-%EB%B0%9B%EB%8A%94-%EB%B6%80%EB%8F%99%EC%82%B0-%EA%B0%84%EC%A0%91%ED%88%AC%EC%9E%90-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_59.jpg"
+    },
+    {
+        "title": "윈도우 10, 11에서 블루투스 드라이버 재설치 방법",
+        "link": "https://dngs.tistory.com/903",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_53.jpg"
+    },
+    {
+        "title": "유럽 호텔 조식 중 최악 '파리 호텔 조식' 내돈내먹 후기",
+        "link": "https://kkindae0326.tistory.com/1516",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_33.jpg"
+    },
+    {
+        "title": "실버앤블러드 쿠폰과 리세 티어 모바일 RPG 초반 공략 방법은?",
+        "link": "https://blog.naver.com/greedady/223914604111",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_1.jpg"
+    },
+    {
+        "title": "에어컨 하루종일 틀어도 전기요금 걱정없는 이유 아세요?",
+        "link": "https://healthlife16.tistory.com/entry/%EC%97%90%EC%96%B4%EC%BB%A8-%ED%95%98%EB%A3%A8%EC%A2%85%EC%9D%BC-%ED%8B%80%EC%96%B4%EB%8F%84-%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88-%EA%B1%B1%EC%A0%95%EC%97%86%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EC%95%84%EC%84%B8%EC%9A%94",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_35.jpg"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3318207?category_large_code=268100100",
+        "image": "https://img.29cm.co.kr/item/202506/11f04027917547d1bb066d58f54c2485.jpg?width=400&format=webp"
+    },
+    {
+        "title": "견우와 선녀 촬영지 14곳을 알려드립니다.(업데이트중)",
+        "link": "https://ys-dl.tistory.com/entry/%EA%B2%AC%EC%9A%B0%EC%99%80-%EC%84%A0%EB%85%80-%EC%B4%AC%EC%98%81%EC%A7%80-8%EA%B3%B3%EC%9D%84-%EC%95%8C%EB%A0%A4%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%A4%91",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_71.jpg"
+    },
+    {
+        "title": "\"다저스의 핵심 톱니바퀴, 조용하게...\" 김혜성 향한 美 현지 평가는 다르다, 보고 있나 로버츠",
+        "link": "https://m.sports.naver.com/article/117/0003958733",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_33.jpg"
+    },
+    {
+        "title": "\"으악, 징그러워\" 다닥다닥 러브버그, 2주만 참으라고요?",
+        "link": "https://n.news.naver.com/article/014/0005369474?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/014/2025/06/29/0005369474_001_20250629054013371.jpg?type=w860"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3318185?category_large_code=268100100",
+        "image": "https://img.29cm.co.kr/item/202506/11f0403da90142019775e74767286efe.jpg?width=400&format=webp"
+    },
+    {
+        "title": "영화: 노이즈 (후기/정보/리뷰) - 깜놀도 많고 공포감 높아서 무서움",
+        "link": "https://blog.naver.com/dance8090/223913188906",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_10.jpg"
+    },
+    {
+        "title": "이상민, 결혼 3개월만에 2번째 이혼? 이혼전문변호사 만났다",
+        "link": "https://v.daum.net/v/20250629090321180",
+        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F29%2Fpoctan%2F20250629090322959sakw.jpg&scode=media"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/2172641?category_large_code=272100100",
+        "image": "https://img.29cm.co.kr/item/202504/11f01c93189d0895b170a1c639207a97.jpg?width=400&format=webp"
+    },
+    {
+        "title": "법무부 장관 친명 좌장 정성호·행안부 장관 윤호중 유력",
+        "link": "https://n.news.naver.com/article/020/0003644377?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/020/2025/06/28/0003644377_001_20250628234710369.jpg?type=w860"
+    },
+    {
+        "title": "뉴엔에이아이 공모주 청약, AI 관련주 흥행 이끌까",
+        "link": "https://kakao777.tistory.com/8279",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_62.jpg"
+    },
+    {
+        "title": "\"1억원대인데 가성비 최고라 불린다고?\" 정통 미드십 스포츠카 '로터스 에미라' 특장점 알아보니",
+        "link": "https://motoroid.tistory.com/5646",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_82.jpg"
+    },
+    {
+        "title": "'52세 CEO' 송은이, 초호화 신사옥 지은 지 2년 만에…김석훈에 희귀템 선물 받아",
+        "link": "https://v.daum.net/v/20250629082101638",
+        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F29%2F10asia%2F20250629082102963sjxr.jpg&scode=media"
+    },
+    {
+        "title": "'퇴근길 무섭네!' 1안타 빈공에 뿔난 삼성 팬, 버스 타는 삼성 선수들 향해 험한 말 뿜어대...양도근은 노려봤다",
+        "link": "https://m.sports.naver.com/article/425/0000166937",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_15.jpg"
+    },
+    {
+        "title": "'조사 거부' 尹, 15시간 만에 귀가…내란특검 \"30일 추가 소환\"[종합]",
+        "link": "https://n.news.naver.com/article/014/0005369470?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/014/2025/06/29/0005369470_001_20250629023515655.jpg?type=w860"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/3235493?category_large_code=272100100",
+        "image": "https://img.29cm.co.kr/item/202505/11f02af463e6c4c889309dc9dc7a4669.jpg?width=400&format=webp"
+    },
+    {
+        "title": "스타벅스 신메뉴 아이스 밀크 카라멜 라떼 후기",
+        "link": "https://blog.naver.com/heejunrice/223913921731",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_21.jpg"
+    },
+    {
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/2196965?category_large_code=268100100",
+        "image": "https://img.29cm.co.kr/next-product/2023/09/01/da9b16943079497a8a3cdbd0acbf76c7_20230901172159.jpg?width=400&format=webp"
+    },
+    {
+        "title": "미국 이란 공격 - 작전명 ‘한밤의 망치’",
+        "link": "https://dorudoru.tistory.com/559643",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_60.jpg"
     },
     {
         "title": "조성모, 4년간 가출뒤 마주한 현실 “집에 압류 딱지, 형은 이미…”",
@@ -110,59 +205,39 @@
         "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F28%2FSPORTSSEOUL%2F20250628204211552tdln.jpg&scode=media"
     },
     {
-        "title": "최강야구 출신 2년 차 투수, 5이닝 KKKKKKK 괴력투…다승 공동 1위 등극 [오!쎈 퓨처스]",
-        "link": "https://m.sports.naver.com/article/109/0005337511",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_3.jpg"
+        "title": " ",
+        "link": "https://product.29cm.co.kr/catalog/2565856?category_large_code=268100100",
+        "image": "https://img.29cm.co.kr/item/202404/11eef095eb7daf8693674f4ffff53848.jpg?width=400&format=webp"
     },
     {
-        "title": "[단독] ‘충격’ 이종범 코치, KT 떠났다… 최강야구의 품으로",
-        "link": "https://m.sports.naver.com/article/396/0000713590",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_7.jpg"
-    },
-    {
-        "title": "내란특검 “尹 조사 때 호칭은 대통령님, 조서엔 피의자”",
-        "link": "https://n.news.naver.com/article/005/0001786176?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/005/2025/06/28/2025062819213899953_1751106099_0028320516_20250628235309042.jpg?type=w860"
-    },
-    {
-        "title": "청춘의 독서를 읽고나서_정치적 성향이 있는 책 같네요",
-        "link": "https://deadmankcj.tistory.com/entry/%EC%B2%AD%EC%B6%98%EC%9D%98-%EB%8F%85%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B3%A0%EB%82%98%EC%84%9C%EC%A0%95%EC%B9%98%EC%A0%81-%EC%84%B1%ED%96%A5%EC%9D%B4-%EC%9E%88%EB%8A%94-%EC%B1%85-%EA%B0%99%EB%84%A4%EC%9A%94",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_66.jpg"
-    },
-    {
-        "title": "집 없으면 앉아서 10억 그냥 번다…들썩이는 동네 어디길래",
-        "link": "https://n.news.naver.com/article/015/0005150787?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/015/2025/06/28/0005150787_001_20250628162016841.jpg?type=w860"
+        "title": "'쓰저씨' 김석훈, 다 방송용 이미지였나…검소하다더니 폭풍 쇼핑",
+        "link": "https://v.daum.net/v/20250628213242517",
+        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F28%2F10asia%2F20250628213243781ewzm.jpg&scode=media"
     },
     {
         "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3048769?category_large_code=272100100",
-        "image": "https://img.29cm.co.kr/item/202502/11efe9ecca156c6c8f0ae96efd97f30a.jpg?width=400&format=webp"
+        "link": "https://product.29cm.co.kr/catalog/2125540?category_large_code=272100100",
+        "image": "https://img.29cm.co.kr/item/202307/11ee196f9f8aec2da46d2ff6b8991a1c.jpg?width=400&format=webp"
     },
     {
-        "title": "서울도 아닌데…'평당 5,000만원' 아파트 상륙",
-        "link": "https://n.news.naver.com/article/215/0001214364?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/215/2025/06/28/A202506280499_1_20250628111508680.jpg?type=w860"
+        "title": "“수행평가, 1학기에만 50개”…전면 재검토 청원의 속사정",
+        "link": "https://n.news.naver.com/article/032/0003379203?ntype=RANKING",
+        "image": "https://imgnews.pstatic.net/image/032/2025/06/29/0003379203_001_20250629090010194.jpeg?type=w860"
     },
     {
-        "title": "장윤정, 매니저와 음주 후 처신 확실하네…\"고용노동부에 신고당해\"",
-        "link": "https://v.daum.net/v/20250628201240581",
-        "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F28%2F10asia%2F20250628201241936uttl.jpg&scode=media"
+        "title": "부산 아기랑 실내 갈만한곳 무료 영도 해양박물관 수유실 주차 4D 식당 찐후기",
+        "link": "https://blog.naver.com/imthankful_/223914025723",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_12.jpg"
     },
     {
-        "title": "'여의도까지 25분' 걸린다더니…집값 1억씩 '뚝뚝' 비명",
-        "link": "https://n.news.naver.com/article/015/0005150767?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/015/2025/06/28/0005150767_001_20250628130012893.jpg?type=w860"
+        "title": "그녀의 멱살을 잡고, 습한 한강 10km를 달렸다",
+        "link": "https://blog.naver.com/kudayz/223914749984",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_7.jpg"
     },
     {
-        "title": "'오징어게임3' 보다가 '깜놀'…\"진짜 국뽕이 차오르네\" [김소연의 엔터비즈]",
-        "link": "https://n.news.naver.com/article/015/0005150791?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/015/2025/06/28/0005150791_001_20250628182812290.jpg?type=w860"
-    },
-    {
-        "title": "'그 무섭던 돌직구가 사라졌다' 압도적 SV 1위였는데...악몽같은 6월, 경쟁자들 추월 직전, 도대체 무슨 일이",
-        "link": "https://m.sports.naver.com/article/076/0004292911",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_2.jpg"
+        "title": "인니 축구 '발칵!' \"인도네시아 탈락하고, 중국이 월드컵 간다\"...中 충격 주장에 당황→\"증거 전혀 없잖아\" 비판",
+        "link": "https://m.sports.naver.com/article/076/0004293240",
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_4.jpg"
     },
     {
         "title": "‘큰절 올린’ 로제, 싸이 흠뻑쇼서 ‘아파트’ 열창…“큰 사랑 주셔서 감사”",
@@ -170,83 +245,8 @@
         "image": "https://img1.daumcdn.net/thumb/S130x90ht.u/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202506%2F28%2Fstartoday%2F20250628193903151gtnj.jpg&scode=media"
     },
     {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/3063629?category_large_code=268100100",
-        "image": "https://img.29cm.co.kr/item/202502/11efeaafa177bd7585212d52cbd175ef.jpg?width=400&format=webp"
-    },
-    {
-        "title": " ",
-        "link": "https://product.29cm.co.kr/catalog/2500313?category_large_code=272100100",
-        "image": "https://img.29cm.co.kr/item/202403/11eedaaf90ba8a249a76b164a28d1035.jpg?width=400&format=webp"
-    },
-    {
-        "title": "역시 여신! 기아타이거즈 김한나 치어리더 비키니 휴양지 패션",
-        "link": "https://blog.naver.com/romyday/223914794915",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_10.jpg"
-    },
-    {
-        "title": "이일동&류우녕은 시나리오 속으로, 우리는 아이치이 속으로! 서권일몽 공개 기념 아이치이 할인 쿠폰📖",
-        "link": "https://blog.naver.com/review_on_today/223914745779",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_21.jpg"
-    },
-    {
-        "title": "\"가장 실망시킨 투수\" 165km 퍼펙트맨은 왜 사라졌나...日매체 \"NPB 시절 규정 이닝 못한게 이유\"",
-        "link": "https://m.sports.naver.com/article/109/0005337602",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_11.jpg"
-    },
-    {
-        "title": "‘기적의 비만약’이라더니 부작용만 400건, 영국 보건당국 조사 착수",
-        "link": "https://n.news.naver.com/article/009/0005516313?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/009/2025/06/28/0005516313_001_20250628213609915.png?type=w860"
-    },
-    {
-        "title": "서울, 수도권 계곡 완벽 가이드 2025",
-        "link": "https://meew.tistory.com/304",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_30.jpg"
-    },
-    {
-        "title": "尹, 밤12시 전 귀가할듯… 내란특검, 신문 종료 조서 열람",
-        "link": "https://n.news.naver.com/article/029/0002964445?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/029/2025/06/28/0002964445_002_20250628225111953.jpg?type=w860"
-    },
-    {
-        "title": "'불장'에 100억씩 들어와…수익률 41% 코리아펀드 [미다스의 손]",
-        "link": "https://n.news.naver.com/article/215/0001214322?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/215/2025/06/27/A202506270975_1_20250627165512547.jpg?type=w860"
-    },
-    {
-        "title": "\"더 섬뜩한 반전\" \"개연성 어디에\"…오겜3 첫날, 반응 갈렸다",
-        "link": "https://n.news.naver.com/article/025/0003451372?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/025/2025/06/28/0003451372_001_20250628150108398.jpg?type=w860"
-    },
-    {
         "title": "초대박! 한국계 女 구단주, 또또또 쾌거…2부 강등 '프랑스 7연패 명문팀' 운영 초읽기→성공 신화, 남자 축구서도 이어갈까",
         "link": "https://m.sports.naver.com/article/311/0001884488",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_29.jpg"
-    },
-    {
-        "title": "\"편의점에서 가장 싼 커피 어떠냐면요\"…이마트24 980 아메리카노 마셔보니[신상 언박싱]",
-        "link": "https://n.news.naver.com/article/011/0004502514?ntype=RANKING",
-        "image": "https://imgnews.pstatic.net/image/011/2025/06/28/0004502514_001_20250628140112431.jpg?type=w860"
-    },
-    {
-        "title": "무선 헤드폰 추천 : 소니 WH-CH520 vs 브리츠 BT4000 ANC Plus vs 소니 WH-CH720N 비교해봤어요",
-        "link": "https://nosearch128.tistory.com/465",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_54.jpg"
-    },
-    {
-        "title": "Windows 11 꼭 정가로 사야 할까? 정품 라이선스 합리적 구매 방법",
-        "link": "https://mifu.tistory.com/entry/Windows-11-%EA%BC%AD-%EC%A0%95%EA%B0%80%EB%A1%9C-%EC%82%AC%EC%95%BC-%ED%95%A0%EA%B9%8C-%EC%A0%95%ED%92%88-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%ED%95%A9%EB%A6%AC%EC%A0%81-%EA%B5%AC%EB%A7%A4-%EB%B0%A9%EB%B2%95",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_52.jpg"
-    },
-    {
-        "title": "오산 맛집 한우 곱창이 맛있는 만리곱창 오산점",
-        "link": "https://blog.naver.com/dangbee07/223914986248",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/blog_tistory_1.jpg"
-    },
-    {
-        "title": "[속보] '병원 입원' 베컴, \"22년 전 팔에 삽입된 나사가 제대로 흡수되지 않아\"...\"제거하고 문제 바로 잡는 수술 진행\"",
-        "link": "https://m.sports.naver.com/article/139/0002226732",
-        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_30.jpg"
+        "image": "https://raw.githubusercontent.com/ric-grown/news-bot/main/images/sports_9.jpg"
     }
 ]
